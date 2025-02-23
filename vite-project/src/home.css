@@ -4,11 +4,12 @@ align-items: center;
 justify-content: center;
 }
 .domain{
-color: palevioletred;
+color: rgb(166, 251, 251);
 transition: color 0.180s ease-in-out;
+font-size: larger;
 }
 .domain:hover {
-color: rgb(252, 0, 0);
+color: rgb(255, 255, 255);
 }
 .card{
 display: flex;
@@ -43,5 +44,8 @@ margin-left: 85px;
 transition: color 0.180s ease-in-out;
 }
 .homehtegs:hover {
-color: palevioletred;
+color: rgb(235, 235, 235);
+}
+body{
+    background-color: rgb(220, 151, 216);
 }

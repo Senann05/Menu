@@ -8,9 +8,12 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     color: palevioletred;
+     color: black;
      margin-bottom: 70px;
  }
+ /* .pagesirniyyatlarh1:hover{
+    color: white;
+ } */
  .imgpagesirniyyat{
      width: 200px;
      height: 200px;
@@ -18,7 +21,8 @@
      transition: transform 0.3s ease-in-out;
  }
  .imgpagesirniyyat:hover{
- transform: scale(1.06);
+ transform: scale(1.1);
+ box-shadow: 0px 7px 14px black;
  }
  .pagecatalog{
      display: flex;
@@ -42,3 +46,15 @@
      transform: scale(1.03);
      box-shadow: 0px 2px 3px rgb(0, 0, 0);
  }
+ .sebetimbuts{
+    margin-left: 490px;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(40, 225, 40);
+    border-radius: 10px;
+    font-size: larger;
+    color: white;
+}
+.sebetimbuts:hover{
+    transform: scale(1.05);
+}
